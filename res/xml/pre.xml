@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+<PreferenceCategory
+	        android:title="Gauge Settings"
+	        android:key="gauge_settings">
+    <CheckBoxPreference
+        android:key="speed_gauge"
+	    android:summary="Enable / Disable Speed Gauge"
+        android:title="Speed Gauge "
+        android:defaultValue="true">
+	</CheckBoxPreference>
+		 	 
+    <CheckBoxPreference
+        android:key="rpm_gauge"
+	    android:summary="Enable / Disable RPM Gauge"
+        android:title="RPM Gauge"
+        android:defaultValue="false">
+    </CheckBoxPreference>
+    
+    <CheckBoxPreference
+        android:key="temp_gauge"
+	    android:summary="Enable / Disable Temperature Gauge"
+        android:title="Temperature Gauge"
+        android:defaultValue="false">
+   	</CheckBoxPreference>
+</PreferenceCategory>
+
+
+<PreferenceCategory
+	        android:title="Server Settings"
+	        android:key="server_settings">
+<EditTextPreference
+	            android:key="ip"
+	            android:title="Server IP"
+	            android:summary="Define the Server IP"
+	            android:dialogTitle="Server IP"
+	            android:dialogMessage="Provide a Server IP"   
+	            android:defaultValue="192.168.0.102" />
+<EditTextPreference
+	            android:key="port"
+	            android:title="Server Port No."
+	            android:summary="Define the Server Port No."
+	            android:dialogTitle="Server IP"
+	            android:dialogMessage="Provide a Server Port"   
+	            android:defaultValue="9988"/>
+
+</PreferenceCategory>
+</PreferenceScreen>

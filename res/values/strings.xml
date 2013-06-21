@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ECU Control</string>
+
+    <string name="car_o_tronics">ECU Control</string>
+
+    <string name="plus">Plus</string>
+    
+    <string name="preference">Preference</string>
+    
+    
+</resources>
